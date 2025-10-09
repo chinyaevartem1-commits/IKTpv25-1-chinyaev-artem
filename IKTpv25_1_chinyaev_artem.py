@@ -60,5 +60,70 @@ print(f"puu läbimõõt on {läbimõõt:.2f} meetrit") #.2f tähendab 2 kohta p�
 # M=int(input("sisesta maatüki M külje pikkus meetrites: "))
 # diagonaal=sqrt(N**2+M**2) #Pythagorase teoreem
 #     t(f"maatüki diagonaal on {diagonaal:.2f} meetrit")
+# diagonaal=sqrt(N**2+M**2) #Pythagorase teoreem
+#     t(f"maatüki diagonaal on {diagonaal:.2f} meetrit")
+aeg = float(input("Mitu tundi kulus sõiduks? "))
+teepikkus = float(input("Mitu kilomeetrit sõitsid? "))
+kiirus = teepikkus / aeg
 
+print("Sinu kiirus oli " + str(kiirus) + " km/h")
+# Kood vastavalt esitatud plokkidele (ilma puhtuse ja vigade kontrollita)
+print("Sisesta palun viis täisarvu:")
+a1 = int(input("Arv 1: "))
+a2 = int(input("Arv 2: "))
+a3 = int(input("Arv 3: "))
+a4 = int(input("Arv 4: "))
+a5 = int(input("Arv 5: "))
+
+s = a1 + a2 + a3 + a4 + a5
+avg = s / 5
+
+print(f"\nViie sisestatud arvu summa on: {s}")
+print(f"Viie sisestatud arvu aritmeetiline keskmine on: {avg}")
+
+# Võimalik viga: kui jagamisarv on 0, tekib ZeroDivisionError
+d = int(input("\nSisesta üks täisarv, millega soovid summat jagada: "))
+
+tosa = s // d
+jaak = s % d
+
+print(f"Summa ({s}) jagatuna arvuga ({d}):")
+print(f"  Täisarvuline osa (kvoot): {tosa}")
+print(f"  Jääk: {jaak}")
+
+print("  @..@")
+print("  (----)")
+print(" ( \__/ )")
+print("^^ \"\" ^^")
+
+# Kolmnurk, korduv plokk
+x = 5
+y = 7
+z = 9
+P = x + y + z
+print(f"Kolmnurga küljed on a={x}, b={y}, c={z}.")
+print(f"Kolmnurga ümbermõõt P = a + b + c on: {P}")
+
+# Pitsa
+h = 12.90
+jp = 0.10
+
+try:
+    p = int(input("Mitu inimest (P) pitsa eest maksab? "))
+except ValueError:
+    exit() # Jätab veateate väljastamata
+
+if p <= 0:
+    exit() # Jätab teate väljastamata
+
+j = h * jp
+k = h + j
+m = k / p
+
+print(f"\n--- Arvutuse tulemused ---")
+print(f"Pitsa hind: {h:.2f} €")
+print(f"Jootraha (10%): {j:.2f} €")
+print(f"Kogu maksumus (koos jootrahaga): {k:.2f} €")
+print(f"Inimesi (P): {p}")
+print(f"Igaüks peab maksma: {m:.2f} €")
 
