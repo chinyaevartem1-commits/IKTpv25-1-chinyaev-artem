@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ac90e865-4ee5-4ce8-af98-a4e1efe21ac2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>..\..\..\Downloads\module1.pyw</StartupFile>
+    <StartupFile>IKTpv25_1_chinyaev_artem.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

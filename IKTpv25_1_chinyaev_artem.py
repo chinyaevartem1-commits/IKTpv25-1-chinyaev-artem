@@ -251,16 +251,31 @@
 #      print("võib olla jahe")
 # except:
 #     print("palun siseta temperatuur ujukomaarvuna")
-pikkus = int(input("Palun sisesta oma pikkus sentimeetrites: "))
 
-pikkus = int(input("Palun sisesta oma pikkus sentimeetrites: "))
 
-if pikkus < 160:
-    print("Sa oled lühike.")
-elif pikkus <= 185:
-    print("Sa oled keskmise pikkusega.")
-else:
-    print("Sa oled pikk.")
 #7 Pikkus ja sugu
 #Küsi inimeselt pikkus ja sugu ning teata, kas ta on lühike, keskmine või pikk (mitu tingimusplokki võib olla üksteise sees).
-f
+# Küsi kasutajalt pikkus ja sugu
+pikkus = float(input("Sisesta oma pikkus sentimeetrites: "))
+sugu = input("Sisesta oma sugu (M/N): ").strip().upper()
+
+# Kontrollime sugu ja pikkust ning määrame kategooria
+if sugu == "M":
+    # Mehe pikkuse kategooriad
+    if pikkus < 170:
+        print("Sa oled lühike mees.")
+    elif 170 <= pikkus <= 185:
+        print("Sa oled keskmise pikkusega mees.")
+    else:
+        print("Sa oled pikk mees.")
+elif sugu == "N":
+    # Naise pikkuse kategooriad
+    if pikkus < 160:
+        print("Sa oled lühike naine.")
+    elif 160 <= pikkus <= 175:
+        print("Sa oled keskmise pikkusega naine.")
+    else:
+        print("Sa oled pikk naine.")
+else:
+    print("Palun sisesta sugu M (mees) või N (naine).")
+
