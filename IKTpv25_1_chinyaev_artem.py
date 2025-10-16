@@ -261,5 +261,6 @@ elif pikkus <= 185:
     print("Sa oled keskmise pikkusega.")
 else:
     print("Sa oled pikk.")
-#.
+#7 Pikkus ja sugu
+#Küsi inimeselt pikkus ja sugu ning teata, kas ta on lühike, keskmine või pikk (mitu tingimusplokki võib olla üksteise sees).
 
