@@ -261,5 +261,5 @@ elif pikkus <= 185:
     print("Sa oled keskmise pikkusega.")
 else:
     print("Sa oled pikk.")
-
+#.
 
