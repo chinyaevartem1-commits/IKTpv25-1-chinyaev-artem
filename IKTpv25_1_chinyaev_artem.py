@@ -1,37 +1,37 @@
-# #1.
-# #Kirjuta enda esimene programm, mis väljastab käsureale teksti: “Tere, maailm!”. 
-# #Küsi kasutaja nimi ja muuda tekst, et ta näeks välja nii: “Tere, maailm! Tervitan sind Mati”, kui kasutaja nimi on Mati.
-# #Küsi kasutajalt sisend tema vanuse kohta ning väljasta see ekraanile:
-# #“Tere, maailm! Tervitan sind Mati! Sa oled N aastat vana.”
+# 1.
+# Kirjuta enda esimene programm, mis väljastab käsureale teksti: “Tere, maailm!”. 
+# Küsi kasutaja nimi ja muuda tekst, et ta näeks välja nii: “Tere, maailm! Tervitan sind Mati”, kui kasutaja nimi on Mati.
+# Küsi kasutajalt sisend tema vanuse kohta ning väljasta see ekraanile:
+# “Tere, maailm! Tervitan sind Mati! Sa oled N aastat vana.”
 
-# # print ("tere maailm!")
-# # nimi=input("Sisseta oma nimi: ").capitalize()#sisend ja ootab enterit
-# # print(f"Tere maailm! tervitan sind {nimi}")
-# # vanus=int(input("siseta oma vanus: "))#int teisendab stringi täis arvuks
-# # print(f"tere maailm! tervistan sind {nimi.upper()}. sa oled {vanus} aastat vana") #upper teeb suurtähted
-# # print(f"tere mailm! tervistan sind {nimi.lower()}. sa oled {vanus} aastat vana") #lower
+# print ("tere maailm!")
+# nimi=input("Sisseta oma nimi: ").capitalize()#sisend ja ootab enterit
+# print(f"Tere maailm! tervitan sind {nimi}")
+# vanus=int(input("siseta oma vanus: "))#int teisendab stringi täis arvuks
+# print(f"tere maailm! tervistan sind {nimi.upper()}. sa oled {vanus} aastat vana") #upper teeb suurtähted
+# print(f"tere mailm! tervistan sind {nimi.lower()}. sa oled {vanus} aastat vana") #lower
 
-# #2
-# #Mis tüüpi on järgnevad muutujad:
-# #a) vanus = 18
-# #b) eesnimi = "Jaak"
-# #c) pikkus = 16.5
-# #d) kas_käib_koolis = True
-# #Mis võimalus veel peale True oleks viimast muutujat väärtustada? Kuidas võiks nende muutujate väärtusi koodis kontrollida?
-# #Kirjuta kood tüüpide kontrollimiseks.
-# # vanus = 18           #int
-# # eesnimi = "jaak"     #str
-# # pikkus = 1.65        #float
-# # kas_käib_koolis = True #bool
-# # print(f"vanus {vanus} on:{type(vanus)}")
-# # print(f"eesnimi {eesnimi} on: {type(eesnimi)}")
-# # print(f"pikkus {pikkus} on: {type(pikkus)}")
-# # print(f"kas_käib_koolis {kas_käib_koolis} on: {type(kas_käib_koolis)}")
+# 2
+# Mis tüüpi on järgnevad muutujad:
+# a) vanus = 18
+# b) eesnimi = "Jaak"
+# c) pikkus = 16.5
+# d) kas_käib_koolis = True
+# Mis võimalus veel peale True oleks viimast muutujat väärtustada? Kuidas võiks nende muutujate väärtusi koodis kontrollida?
+# Kirjuta kood tüüpide kontrollimiseks.
+# vanus = 18           #int
+# eesnimi = "jaak"     #str
+# pikkus = 1.65        #float
+# kas_käib_koolis = True #bool
+# print(f"vanus {vanus} on:{type(vanus)}")
+# print(f"eesnimi {eesnimi} on: {type(eesnimi)}")
+# print(f"pikkus {pikkus} on: {type(pikkus)}")
+# print(f"kas_käib_koolis {kas_käib_koolis} on: {type(kas_käib_koolis)}")
 
-# #3
+# 3
 
-# #Kirjuta enda koodis laual olevate kommide arv muutujasse(kommide arv on juhuslik). Seejärel kuva muutujas olev kommide arv ekraanile kasutades print() käsku.
-# #Küsi kasutajalt sisendit, mitu kommi ta soovib laualt ära võtta. Eemalda soovitud kommide arv laual olevate kommide arvust ja kuva ekraanile, kui palju komme laual nüüd on. 
+# Kirjuta enda koodis laual olevate kommide arv muutujasse(kommide arv on juhuslik). Seejärel kuva muutujas olev kommide arv ekraanile kasutades print() käsku.
+# Küsi kasutajalt sisendit, mitu kommi ta soovib laualt ära võtta. Eemalda soovitud kommide arv laual olevate kommide arvust ja kuva ekraanile, kui palju komme laual nüüd on. 
 # from enum import member
 # from random import *
 # from types import MemberDescriptorType
@@ -41,9 +41,9 @@
 # laua_peal-=võtab #laua_peal=laua_peal-võtab, võtab kommid maha
 # print(f"laual on nüüd {laua_peal} kommi")
 
-# # 4
-# # Puu läbimõõdu arvutamine
-# # Kirjuta programm, mis küsib kasutaja käest puu ümbermõõdu ning teatab selle peale puu läbimõõdu.
+# 4
+# Puu läbimõõdu arvutamine
+# Kirjuta programm, mis küsib kasutaja käest puu ümbermõõdu ning teatab selle peale puu läbimõõdu.
 # from math import*
 # ümbermõõt=int(input("sisesta puu ümbermõõt meetrites: ")) #int teisendab stringi täisarvuks
 
@@ -53,21 +53,21 @@
 # läbimõõt=ümbermõõt/pi #voib kasutada ka math raamatukogu
 # print(f"puu läbimõõt on {läbimõõt:.2f} meetrit") #.2f tähendab 2 kohta pärast koma
 
-# # 5.
-# # Arvutage Pythoni käsureal, kui pikk on ristkülikukujulise maatüki diagonaal, mille mõõtmed on Nm x Mm. N ja M küsi kasutajalt.
-# # from math import*
-# # N=int(input("sisesta maatüki N külje pikkus meetrites: "))
-# # M=int(input("sisesta maatüki M külje pikkus meetrites: "))
-# # diagonaal=sqrt(N**2+M**2) #Pythagorase teoreem
-# #     t(f"maatüki diagonaal on {diagonaal:.2f} meetrit")
-# # diagonaal=sqrt(N**2+M**2) #Pythagorase teoreem
-# #     t(f"maatüki diagonaal on {diagonaal:.2f} meetrit")
+# 5.
+# Arvutage Pythoni käsureal, kui pikk on ristkülikukujulise maatüki diagonaal, mille mõõtmed on Nm x Mm. N ja M küsi kasutajalt.
+# from math import*
+# N=int(input("sisesta maatüki N külje pikkus meetrites: "))
+# M=int(input("sisesta maatüki M külje pikkus meetrites: "))
+# diagonaal=sqrt(N**2+M**2) #Pythagorase teoreem
+#     t(f"maatüki diagonaal on {diagonaal:.2f} meetrit")
+# diagonaal=sqrt(N**2+M**2) #Pythagorase teoreem
+#     t(f"maatüki diagonaal on {diagonaal:.2f} meetrit")
 # aeg = float(input("Mitu tundi kulus sõiduks? "))
 # teepikkus = float(input("Mitu kilomeetrit sõitsid? "))
 # kiirus = teepikkus / aeg
 
 # print("Sinu kiirus oli " + str(kiirus) + " km/h")
-# # Kood vastavalt esitatud plokkidele (ilma puhtuse ja vigade kontrollita)
+# Kood vastavalt esitatud plokkidele (ilma puhtuse ja vigade kontrollita)
 # print("Sisesta palun viis täisarvu:")
 # a1 = int(input("Arv 1: "))
 # a2 = int(input("Arv 2: "))
@@ -81,7 +81,7 @@
 # print(f"\nViie sisestatud arvu summa on: {s}")
 # print(f"Viie sisestatud arvu aritmeetiline keskmine on: {avg}")
 
-# # Võimalik viga: kui jagamisarv on 0, tekib ZeroDivisionError
+# Võimalik viga: kui jagamisarv on 0, tekib ZeroDivisionError
 # d = int(input("\nSisesta üks täisarv, millega soovid summat jagada: "))
 
 # tosa = s // d
@@ -96,7 +96,7 @@
 # print(" ( \__/ )")
 # print("^^ \"\" ^^")
 
-# # Kolmnurk, korduv plokk
+# Kolmnurk, korduv plokk
 # x = 5
 # y = 7
 # z = 9
@@ -104,7 +104,7 @@
 # print(f"Kolmnurga küljed on a={x}, b={y}, c={z}.")
 # print(f"Kolmnurga ümbermõõt P = a + b + c on: {P}")
 
-# # Pitsa
+# Pitsa
 # h = 12.90
 # jp = 0.10
 
@@ -127,107 +127,107 @@
 # print(f"Inimesi (P): {p}")
 # print(f"Igaüks peab maksma: {m:.2f} €")
 
-#1-esmaspäev, 2-teisipäev, 3-kolmapäev, 4-neljapäev, 5-reede, 6-laupäev, 7-pühapäev
-#paev_number=int(input("Sisesta paeva number (1-7): "))
-#if paev_number==1:
-    #print("Esmaspaev")
-#elif paev_number==2:
-    #print("Teisipaev")
-#elif paev_number==3:
-    #print("Kolmapaev")
-#elif paev_number==4:
-    #print("Neljapaev")
-#elif paev_number==5:
-    #print("Reede")
-#elif paev_number==6:
-    #print("Laupaev")
-#elif paev_number==7:
-   # print("Puhapaev")
-#else:
-   # print("Vale number! Palun sisesta number vahemikus 1-7.")
+# 1-esmaspäev, 2-teisipäev, 3-kolmapäev, 4-neljapäev, 5-reede, 6-laupäev, 7-pühapäev
+# paev_number=int(input("Sisesta paeva number (1-7): "))
+# if paev_number==1:
+#     print("Esmaspaev")
+# elif paev_number==2:
+#     print("Teisipaev")
+# elif paev_number==3:
+#     print("Kolmapaev")
+# elif paev_number==4:
+#     print("Neljapaev")
+# elif paev_number==5:
+#     print("Reede")
+# elif paev_number==6:
+#     print("Laupaev")
+# elif paev_number==7:
+#    print("Puhapaev")
+# else:
+#    print("Vale number! Palun sisesta number vahemikus 1-7.")
 
 
 
 
 
 
-#1. Juku
+# 1. Juku
 
-#a Kui eesnimi on Juku siis lähme Jukuga kinno. Aga teeme seda nii, kui nimi oli kirjutatud suurtähtedega.
+# a Kui eesnimi on Juku siis lähme Jukuga kinno. Aga teeme seda nii, kui nimi oli kirjutatud suurtähtedega.
 
-#b Lisa valiku, kus Juku vanuse alusel otsustate mis pilet talle vaja osta. (Tee kontroll, kas sisestatud arv on täisarv)
+# b Lisa valiku, kus Juku vanuse alusel otsustate mis pilet talle vaja osta. (Tee kontroll, kas sisestatud arv on täisarv)
 
-#<6 aastad  - tasuta
-#6-14 - lastepilet
-#15-65 - täispilet
-#>65 - sooduspilet
-#<0 ja >100 viga andmetega
-#eesnimi=input("Sisesta eesnimi: ")
-#if eesnimi=="JUKU":
-    #print("Lahme Jukuga kinno!")
-    #vanus=input("Sisesta Juku vanus: ")
-    #if vanus.isdigit():
-        #vanus=int(vanus)
-        #if vanus<9 or vanus>100:
-            #print("Viga andmetega!")
-        #elif vanus<6:
-            #print("Pilet on tasuta!")
-        #elif vanus<=14:
-            #print("Lastepilet")
-        #elif vanus<=65:
-            #print("Taispilet")
-        #else:
-            #print("Sooduspilet")
-    #else:
-        #print("Palun sisesta vanus taisarvuna!")
+# <6 aastad  - tasuta
+# 6-14 - lastepilet
+# 15-65 - täispilet
+# >65 - sooduspilet
+# <0 ja >100 viga andmetega
+# eesnimi=input("Sisesta eesnimi: ")
+# if eesnimi=="JUKU":
+#     print("Lahme Jukuga kinno!")
+#     vanus=input("Sisesta Juku vanus: ")
+#     if vanus.isdigit():
+#         vanus=int(vanus)
+#         if vanus<9 or vanus>100:
+#             print("Viga andmetega!")
+#         elif vanus<6:
+#             print("Pilet on tasuta!")
+#         elif vanus<=14:
+#             print("Lastepilet")
+#         elif vanus<=65:
+#             print("Taispilet")
+#         else:
+#             print("Sooduspilet")
+#     else:
+#         print("Palun sisesta vanus taisarvuna!")
 
-#2 Pinginaabrid
+# 2 Pinginaabrid
 
-#Küsi kahe inimese nimed. Kui nimed koosnevad
-#ainult tähedest siis  teavita kasutajat,
-#kas nad on täna pinginaabrid või ei mitte.
-#nimi1=input("Sisesta nimi => ").capitalize()
-#nimi2=input("Sisesta nimi => ").capitalize()
-#if nimi1.isalpha() and nimi2.isalpha():
-    #if nimi1=="Polina" and nimi2=="Darja" or nimi1=="Darja" and nimi2=="Polina":
-        #print(f"{nimi1} ja {nimi2} on tana pinginaabrid")
-    #else:
-        #print(f"{nimi1} ja {nimi2} ei ole pinginaabrid")
-#else:
-    #print("Palun sisesta ainult tahed")
+# Küsi kahe inimese nimed. Kui nimed koosnevad
+# ainult tähedest siis  teavita kasutajat,
+# kas nad on täna pinginaabrid või ei mitte.
+# nimi1=input("Sisesta nimi => ").capitalize()
+# nimi2=input("Sisesta nimi => ").capitalize()
+# if nimi1.isalpha() and nimi2.isalpha():
+#     if nimi1=="Polina" and nimi2=="Darja" or nimi1=="Darja" and nimi2=="Polina":
+#         print(f"{nimi1} ja {nimi2} on tana pinginaabrid")
+#     else:
+#         print(f"{nimi1} ja {nimi2} ei ole pinginaabrid")
+# else:
+#     print("Palun sisesta ainult tahed")
 
-#3 Remont
+# 3 Remont
 
-#Küsi ristkülikukujulise toa seinte pikkused ning arvuta põranda pindala. Küsi kasutajalt remondi tegemise soov, kui ta on positiivne, siis küsi kui palju maksab ruutmeeter ja leia põranda vahetamise hind
-#Lisaküsimus: kas ta teeb remonti ise või teeb seda professionaali abiga? Kui tegemist on professionaaliga, siis palun arvutage välja, kui palju remont koos tööga maksab.
+# Küsi ristkülikukujulise toa seinte pikkused ning arvuta põranda pindala. Küsi kasutajalt remondi tegemise soov, kui ta on positiivne, siis küsi kui palju maksab ruutmeeter ja leia põranda vahetamise hind
+# Lisaküsimus: kas ta teeb remonti ise või teeb seda professionaali abiga? Kui tegemist on professionaaliga, siis palun arvutage välja, kui palju remont koos tööga maksab.
 
-#pikkus = int(input("Sisestage pikkus: "))
-#laius = int(input("Sisestage laius: "))
-#if pikkus>0 and laius>0:
+# pikkus = int(input("Sisestage pikkus: "))
+# laius = int(input("Sisestage laius: "))
+# if pikkus>0 and laius>0:
 
-    #pindala = pikkus * laius
-    #print(f"pindala suurus on {pindala}")
-    #user = input("Kas soovite remondi teha? ").capitalize()
-    #if user.isalpha() and user == "Jah":
-        #hind = float(input("Ruutmeetri hind? "))
-        #if hind>0:
-            #remondi_hind = hind * pindala
-            #print(f"remondi summa on {remondi_hind}€")
-            #kes = input("Kes teeb remondi(ise/tootaja)? ").capitalize()
-            #if kes.isalpha() and kes == "Ise":
-                #print(f"Siis summa on {remondi_hind}€")
-            #else:
-                #print(f"Siis summa on {remondi_hind + 300}€")
-        #else:
-            #print("Hind ei saa olla negatiivne!")
-    #else:
-        #print("Head aega!")
-#else:
-    #print("Arvud peavad olema suurem kui 0")
+#     pindala = pikkus * laius
+#     print(f"pindala suurus on {pindala}")
+#     user = input("Kas soovite remondi teha? ").capitalize()
+#     if user.isalpha() and user == "Jah":
+#         hind = float(input("Ruutmeetri hind? "))
+#         if hind>0:
+#             remondi_hind = hind * pindala
+#             print(f"remondi summa on {remondi_hind}€")
+#             kes = input("Kes teeb remondi(ise/tootaja)? ").capitalize()
+#             if kes.isalpha() and kes == "Ise":
+#                 print(f"Siis summa on {remondi_hind}€")
+#             else:
+#                 print(f"Siis summa on {remondi_hind + 300}€")
+#         else:
+#             print("Hind ei saa olla negatiivne!")
+#     else:
+#         print("Head aega!")
+# else:
+#     print("Arvud peavad olema suurem kui 0")
 
-#4 Allahindus
+# 4 Allahindus
 
- #Leia 30% soodustusega hinna, kui alghind on suurem kui 700
+#  Leia 30% soodustusega hinna, kui alghind on suurem kui 700
 
 
 
@@ -253,29 +253,111 @@
 #     print("palun siseta temperatuur ujukomaarvuna")
 
 
-#7 Pikkus ja sugu
-#Küsi inimeselt pikkus ja sugu ning teata, kas ta on lühike, keskmine või pikk (mitu tingimusplokki võib olla üksteise sees).
+# 7 Pikkus ja sugu
+# Küsi inimeselt pikkus ja sugu ning teata, kas ta on lühike, keskmine või pikk (mitu tingimusplokki võib olla üksteise sees).
 # Küsi kasutajalt pikkus ja sugu
-pikkus = float(input("Sisesta oma pikkus sentimeetrites: "))
-sugu = input("Sisesta oma sugu (M/N): ").strip().upper()
+# pikkus = float(input("Sisesta oma pikkus sentimeetrites: "))
+# sugu = input("Sisesta oma sugu (M/N): ").strip().upper()
 
 # Kontrollime sugu ja pikkust ning määrame kategooria
-if sugu == "M":
-    # Mehe pikkuse kategooriad
-    if pikkus < 170:
-        print("Sa oled lühike mees.")
-    elif 170 <= pikkus <= 185:
-        print("Sa oled keskmise pikkusega mees.")
-    else:
-        print("Sa oled pikk mees.")
-elif sugu == "N":
-    # Naise pikkuse kategooriad
-    if pikkus < 160:
-        print("Sa oled lühike naine.")
-    elif 160 <= pikkus <= 175:
-        print("Sa oled keskmise pikkusega naine.")
-    else:
-        print("Sa oled pikk naine.")
-else:
-    print("Palun sisesta sugu M (mees) või N (naine).")
+# if sugu == "M":
+#     Mehe pikkuse kategooriad
+#     if pikkus < 170:
+#         print("Sa oled lühike mees.")
+#     elif 170 <= pikkus <= 185:
+#         print("Sa oled keskmise pikkusega mees.")
+#     else:
+#         print("Sa oled pikk mees.")
+# elif sugu == "N":
+#     Naise pikkuse kategooriad
+#     if pikkus < 160:
+#         print("Sa oled lühike naine.")
+#     elif 160 <= pikkus <= 175:
+#         print("Sa oled keskmise pikkusega naine.")
+#     else:
+#         print("Sa oled pikk naine.")
+# else:
+#     print("Palun sisesta sugu M (mees) või N (naine).")
+# 8. POOD
+# from random import randint
+# print("POOD")
+# piim=input("Tahad piima? ")
+# sai=input("Tahad saia? ")
+# leib=input("Tahad leiba? ")
+# kokku=0
+# if piim=="jah":
+#     h=randint(1,5)
+#     k=int(input("Mitu piima? "))
+#     kokku+=h*k
+# if sai=="jah":
+#     h=randint(1,5)
+#     k=int(input("Mitu saia? "))
+#     kokku+=h*k
+# if leib=="jah":
+#     h=randint(1,5)
+#     k=int(input("Mitu leiba? "))
+#     kokku+=h*k
+# print("KOKKU MAKSAD",kokku,"EUR")
+# 9. RUUT
+# print("\nRUUT")
+# a=float(input("Sisesta a: "))
+# b=float(input("Sisesta b: "))
+# if a==b:
+#     print("Ruut jah")
+# else:
+#     print("Ei ole ruut")
+# 10. MATEMAATIKA
+# print("\nMATEMAATIKA")
+# a=float(input("arv1: "))
+# b=float(input("arv2: "))
+# op=input("tehe: ")
+# if op=="+":
+#     print(a+b)
+# if op=="-":
+#     print(a-b)
+# if op=="*":
+#     print(a*b)
+# if op=="/":
+#     print(a/b)
+# 11. JUUBEL
+# print("\nJUUBEL")
+# synni=int(input("Sünniaasta: "))
+# v=2025-synni
+# if v%5==0:
+#     print("Juubel!")
+# else:
+#     print("Ei ole juubel")
+
+# 12. MÜÜK
+# print("\nMÜÜK")
+# hind=float(input("Hind: "))
+# if hind<=10:
+#     print("hind on",hind*0.9)
+# else:
+#     print("hind on",hind*0.8)
+
+# 13. JALGPALL
+# print("\nJALGPALL")
+# sugu=input("Sugu M/N: ")
+# if sugu=="M":
+#     vanus=int(input("Vanus: "))
+#     if vanus>=16 and vanus<=18:
+#         print("Sobib")
+#     else:
+#         print("Ei sobi")
+# if sugu=="N":
+#     print("Ainult meestele")
+
+# 14. BUSSID
+# print("\nBUSSID")
+# inim=int(input("Inimesed: "))
+# koht=int(input("Kohad bussis: "))
+# bussid=inim//koht
+# if inim%koht!=0:
+#     bussid+=1
+# viim=inim%koht
+# if viim==0:
+#     viim=koht
+# print("bussid:",bussid)
+# print("viimases:",viim)
 
